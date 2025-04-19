@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-find-the-difference-of-two-arrays](https://github.com/shykha7/leetcode-questions/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1848-sum-of-unique-elements](https://github.com/shykha7/leetcode-questions/tree/master/1848-sum-of-unique-elements) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/shykha7/leetcode-questions/tree/master/2163-kth-distinct-string-in-an-array) |
+| [3194-find-words-containing-character](https://github.com/shykha7/leetcode-questions/tree/master/3194-find-words-containing-character) |
 ## Hash Table
 |  |
 | ------- |
@@ -29,4 +30,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2163-kth-distinct-string-in-an-array](https://github.com/shykha7/leetcode-questions/tree/master/2163-kth-distinct-string-in-an-array) |
+| [3194-find-words-containing-character](https://github.com/shykha7/leetcode-questions/tree/master/3194-find-words-containing-character) |
 <!---LeetCode Topics End-->
