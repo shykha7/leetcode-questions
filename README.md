@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0742-to-lower-case](https://github.com/shykha7/leetcode-questions/tree/master/0742-to-lower-case) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/shykha7/leetcode-questions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3194-find-words-containing-character](https://github.com/shykha7/leetcode-questions/tree/master/3194-find-words-containing-character) |
 <!---LeetCode Topics End-->
