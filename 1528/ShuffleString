@@ -1,0 +1,13 @@
+/**
+ * @param {string} s
+ * @param {number[]} indices
+ * @return {string}
+ */
+var restoreString = function(s, indices) {
+   let arr = []
+   let splitedS = s.split("")
+   for(let i =0; i<indices.length; i++){
+    arr[indices[i]] = splitedS[i]
+   }
+   return arr.join('')
+};
