@@ -1,0 +1,29 @@
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @return {string[]}
+ */
+var uncommonFromSentences = function(s1, s2) {
+    let Fwords = s1.split(" ");
+    let Swords = s2.split(" ");
+    let concat = Fwords.concat(Swords);
+   
+
+    let words = []
+    for(let i =0;i<concat.length;i++){
+       let count = 0
+       for(let j =0;j<concat.length;j++){
+            if(concat[i]==concat[j])
+            count++
+       }
+       if(count ==1){
+        words.push(concat[i])
+        
+       }
+        
+           
+    }
+    return words; 
+};
+ 
+   
