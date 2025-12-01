@@ -1,0 +1,24 @@
+/**
+ * @param {string} ransomNote
+ * @param {string} magazine
+ * @return {boolean}
+ */
+var canConstruct = function(ransomNote, magazine) {
+    let count = {}
+     for (let i = 0; i < magazine.length; i++) {
+        let ch = magazine[i];
+        count[ch] = (count[ch] || 0) + 1;
+    }
+     for (let i = 0; i < ransomNote.length; i++) {
+        let ch = ransomNote[i];
+
+        if (!count[ch] || count[ch] === 0) {
+            return false;
+        }
+
+        count[ch]--;  
+    }
+
+    return true;
+
+};
