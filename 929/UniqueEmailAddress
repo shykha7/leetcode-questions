@@ -1,0 +1,44 @@
+public class Solution {
+    public int NumUniqueEmails(string[] emails) {
+        HashSet<string> set = new HashSet<string>();
+
+    foreach (string email in emails)
+    {
+        StringBuilder sb = new StringBuilder();
+        bool ignore = false;  // after '+'
+        bool domain = false;  // after '@'
+
+        foreach (char c in email)
+        {
+            if (domain)
+            {
+                sb.Append(c);
+            }
+            else
+            {
+                if (c == '@')
+                {
+                    domain = true;
+                    sb.Append(c);
+                }
+                else if (c == '+')
+                {
+                    ignore = true;
+                }
+                else if (c == '.')
+                {
+                    continue;
+                }
+                else if (!ignore)
+                {
+                    sb.Append(c);
+                }
+            }
+        }
+
+        set.Add(sb.ToString());
+    }
+
+    return set.Count;
+    }
+}
